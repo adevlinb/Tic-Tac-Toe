@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  background: rgb(203, 203, 203);
+  background-size: cover; 
+}
+
+body {
+  /* viewport units: vh (viewport/page height), vw, vmin (smallest between vh & vw) */
+  height: 100vh;
+  margin: 10vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+HEADER {
+    font-size: 10vmin;
+    color: darkblue;
+}
+
+#board {
+    display: grid;
+    background-color: lightblue;
+    grid-template-columns: repeat(3, 20vmin);
+    grid-template-rows: repeat(3, 20vmin);
+    padding: 5px;
+    margin: 2vmin;
+}
+
+#scoreboard {
+    display: grid;
+    background-color: none;
+    grid-template-columns: repeat(3, 20vmin);
+    grid-template-rows: repeat(1, 20vmin);
+    padding: 5px;
+    margin: 2vmin;
+    
+}
+
+#SB {
+    display: inline;
+    justify-content: left;
+    align-items: left;
+    font-size: 3vmin;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 5px;
+}
+
+div {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vmin;
+    margin: 5px;
+    color: rgb(31, 40, 164);
+}
+
+h1 {
+    font-size: 3vmin;
+}
+
+button {
+    margin: 10px;
+}
